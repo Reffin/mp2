@@ -10,7 +10,7 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
     <>
       <section className='cart-items'>
         <div className='container d_flex'>
-       
+
 
           <div className='cart-details'>
             {CartItem.length === 0 && <h1 className='no-items product'>No Items are add in Cart</h1>}
@@ -36,7 +36,7 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
                         <i className='fa-solid fa-xmark'></i>
                       </button>
                     </div>
-                 
+
                     <div className='cartControl d_flex'>
                       <button className='incCart' onClick={() => addToCart(item)}>
                         <i className='fa-solid fa-plus'></i>

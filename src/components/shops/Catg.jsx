@@ -3,12 +3,12 @@ import React from "react"
 const Catg = () => {
   const data = [
     {
-      cateImg: "./images/category/cat-1.png",
+      cateImg: "./images/category/apple-1.png",
       cateName: "Apple",
     },
     {
       cateImg: "./images/category/cat-2.png",
-      cateName: "Samasung",
+      cateName: "Samsung",
     },
     {
       cateImg: "./images/category/cat-1.png",
@@ -20,7 +20,7 @@ const Catg = () => {
     },
     {
       cateImg: "./images/category/cat-1.png",
-      cateName: "Redimi",
+      cateName: "Redmi",
     },
     {
       cateImg: "./images/category/cat-2.png",
@@ -32,7 +32,7 @@ const Catg = () => {
       <div className='category'>
         <div className='chead d_flex'>
           <h1>Brands </h1>
-          <h1>Shops </h1>
+
         </div>
         {data.map((value, index) => {
           return (
