@@ -11,14 +11,12 @@ import Sdata from "./components/shops/Sdata"
 function App() {
 
 
-  //Step 1 :
+
   const { productItems } = Data
   const { shopItems } = Sdata
 
-  //Step 2 :
   const [CartItem, setCartItem] = useState([])
 
-  //Step 4 :
   const addToCart = (product) => {
 
     const productExit = CartItem.find((item) => item.id === product.id)
@@ -33,7 +31,7 @@ function App() {
     }
   }
 
-  // Stpe: 6
+
   const decreaseQty = (product) => {
 
     const productExit = CartItem.find((item) => item.id === product.id)
