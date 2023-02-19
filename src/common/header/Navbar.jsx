@@ -25,13 +25,7 @@ const Navbar = () => {
                 <Link to='/Categories'>About Us</Link>
               </li>
               <li>
-                <Link to='/'>user account</Link>
-              </li>
-              <li>
-                <Link to='/'>vendor account</Link>
-              </li>
-              <li>
-                <Link to='/'>track my order</Link>
+                <Link to='/cart'>track my order</Link>
               </li>
               <li>
                 <Link to='/contact'>contact</Link>
