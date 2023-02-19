@@ -8,7 +8,7 @@ const Sdata = [
   {
     id: 2,
     title: "50% Off For Your First Shopping",
-    desc: "This Picture Of Leather Varsity Jacket - Purple And White Varsity Jacket is high quality ",
+    desc: "Leather Varsity Jacket - Purple And White Varsity Jacket is high quality ",
     cover: "./images/SlideCard//slide-2.png",
   },
   {
@@ -20,7 +20,7 @@ const Sdata = [
   {
     id: 4,
     title: "50% Off For Your First Shopping",
-    desc: "This Air Force 1 Low Mini Swoosh 'university Red' - Nike Shoes Air Force 1 is high quality",
+    desc: "Air Force 1 Low Mini Swoosh 'university Red' - Nike Shoes Air Force 1 is high quality",
     cover: "./images/SlideCard/slide-4.png",
   },
 ]
